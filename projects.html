@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.png" type="image/png">
+<title>Disha- Portfolio</title>
+</head>
+<body>
+<div class="app" id="app">
+<header>
+<nav>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contacts.html">Contacts</a></li>
+</ul>
+</nav>
+</header>
+<section id="projects" class="section">
+    <h1>Projects</h1>
+    <div class="project">
+        <h2>Project 1: E-Commerce Website</h2>
+        <h4>Description:</h4>
+        <p>The Responsive Web Apps project is dedicated to developing web applications that seamlessly adjust to a variety of devices and screen dimensions, delivering a uniform and exceptional user experience.<br>
+        <h4>Technologies Used:</h4>
+            HTML5 and CSS.</p>
+    </div>
+    <div class="project">
+        <h2>Project 2: Personal Blog Website</h2>
+        <h4>Description:</h4>
+        <p>The Responsive Web Apps project is a web development initiative aimed at creating versatile and user-friendly applications that adapt seamlessly to various screen sizes and devices. The primary focus of this project is to ensure that users have a consistent and optimal experience, whether they are accessing the application on a desktop computer, tablet, or mobile phone.<br>
+        <h4>Technologies Used:</h4>
+        HTML5, CSS and JavaScript.</p>
+    </div>
+    <!-- Add more project details as needed -->
+</section>
+<router-view></router-view>
+<footer>
+&copy; 2023 Disha
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.js"></script>
+<script src="https://unpkg.com/vue-router@4.0.0/dist/vue-router.global.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

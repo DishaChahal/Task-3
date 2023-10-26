@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    }
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+    footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+
+    /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.app{
+    background-color: rgb(252, 155, 203);
+}
+/* Header and navigation styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Section styles */
+.section {
+    background-color: #fff;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Project styles */
+.project {
+    margin: 1rem 0;
+}
+
+.project h2 {
+    font-size: 1.5rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+}
